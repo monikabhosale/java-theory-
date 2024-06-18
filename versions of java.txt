@@ -1,0 +1,153 @@
+Versions of java
+
+Release Date: January 23, 1996
+Features: Initial release of Java, including core 
+
+language features, libraries, and the 
+
+Java Virtual Machine (JVM).
+Java 5 (Java 1.5):
+
+Release Date: September 30, 2004
+
+JDK 1.1
+Major additions in the release on February 19, 1997 included:[17]
+
+extensive retooling of the Abstract Window Toolkit (AWT)
+ event model
+
+inner classes added to the language
+JavaBeans
+Java Database Connectivity (JDBC)
+Java remote method invocation (RMI) and 
+
+serialization reflection which supported Introspection only, 
+no modification at runtime was possible.
+ (The ability to modify objects reflectively 
+
+was added in J2SE 1.2, by introducing 
+the AccessibleObject class and its 
+subclasses such as the Field class.)
+
+The release on December 8, 1998 and subsequent 
+releases through J2SE 5.0 were rebranded retrospectively 
+Java 2 and the version name "J2SE" 
+
+(Java 2 Platform, Standard Edition)
+ replaced JDK to distinguish the base platform from J2EE
+ (Java 2 Platform, Enterprise Edition) and J2ME 
+
+(Java 2 Platform, Micro Edition). 
+This was a very significant release of 
+
+Java as it tripled the size of the Java platform 
+to 1520 classes in 59 packages. 
+Major additions included:[19]
+
+strictfp keyword (by JVM 17 an obsolete keyword, should not be used in new code)
+The Swing graphical API was integrated into the core classes.
+Sun's JVM was equipped with a JIT compiler for the first time.
+Java plug-in
+Java IDL, an IDL implementation for CORBA interoperability
+Collections framework
+Just-in-time compilation (JIT) on 
+Microsoft Windows platforms, produced for
+
+ JavaSoft by Symantec
+Internationalization and Unicode support originating from Taligent[18]
+
+Features:
+Generics: Introduced generic types, 
+enabling stronger type checking at 
+
+compile time and eliminating 
+the need for explicit casting.
+
+Enhanced for Loop: Simplified iteration over
+ collections with the enhanced for loop.
+
+Autoboxing/Unboxing: Automatic conversion between
+ primitive types and their corresponding object wrapper classes.
+
+Enumerations: Introduced the enum keyword for 
+defining enumerated types.
+
+Annotations: Added support for metadata 
+annotations in code.
+Java 8:
+Release Date: March 18, 2014
+Features:
+Lambda Expressions: Added support for functional 
+programming constructs with lambda expressions.
+
+Stream API: Introduced a new Stream API for processing 
+collections of data in a functional style.
+
+Date and Time API: Revamped the date and time 
+handling with the java.time package.
+
+Default Methods: Added support for default 
+methods in interfaces to facilitate backward 
+compatibility.
+
+Optional Class: Introduced the Optional 
+class to deal with potentially null 
+values in a more concise and expressive way.
+
+Java 11 (LTS):
+Release Date: September 25, 2018
+Features:
+HTTP Client: Standardized HTTP client API introduced 
+
+in the java.net.http package.
+
+Local-Variable Syntax for Lambda Parameters:
+ Enhanced lambda expressions with the ability to 
+use var for lambda parameters.
+
+
+Launch Single-File Source-Code Programs: 
+Added the ability to directly execute a 
+
+single-file Java source code program 
+without compilation.
+
+Java 17:
+Release Date: September 14, 2021
+
+Features:
+Sealed Classes: Finalized the preview feature
+ introduced in Java 15, providing a way to 
+restrict which classes can extend 
+
+or implement a given class or interface.
+
+Foreign Function and Memory API: 
+Introduced to call native 
+code and access native memory in 
+a safe and efficient manner.
+
+Strongly Encapsulate JDK Internals: 
+Enhanced encapsulation of JDK internals 
+by limiting internal APIs and improving 
+
+encapsulation mechanisms.
+
+Pattern Matching for Switch: Improved coding 
+readability by allowing pattern 
+matching in switch statements.
+These versions represent significant milestones
+
+ in the evolution of the Java platform, introducing 
+new language features, APIs, and improvements
+ to the runtime environment. Keep in mind that 
+
+Java continues to evolve, with new versions being 
+released periodically to address performance, 
+security, and feature enhancements. 
+
+Always refer to the official 
+Java documentation for 
+the most up-to-date 
+information on Java versions 
+and their features.

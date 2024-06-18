@@ -1,0 +1,113 @@
+28 may
+features of java
+Java programming language was initially developed to work on embedded systems, settop boxes, television. So by requirements, it was initially designed to work on varied platforms. Over the period of multiple years, Java evolved to become one of the most popular language used to develop internet based applications.
+Java is a feature rich language and with every new version, it is continously evolving. It is widely used across billions of devices. Following are the main features of the Java language -
+Major Features of Java
+Simple and Easy to Learn.
+Object-Oriented Programming.
+Platform Independence.
+Automatic Memory Management.
+Security.
+Rich API.
+Multithreading.
+High Performance.
+
+1. Simple and Easy to Learn
+Java is easy to learn and simple to use as a programming language. It is because of following reasons:
+Java comprises the same syntax as C, and C++.
+It holds automatic garbage collection features.
+Java eliminated its unused features.
+It keeps bringing regular updates for better performance.
+Java has its own community to make learning and using Java easy.
+
+2. Object-Oriented Programming
+Almost everything written in Java is object and class, making it a true object-oriented programming (OOP) language. The basic concept of OOP is:
+
+Object: Object is a real-world entity in Java that encompasses state, functionality, and identity.
+Class: Class is a logical entity which includes a group of objects with common properties. It contains fields, methods, constructors, blocks, nested classes and interfaces.
+Inheritance: It’s a concept in Java through which developers can create new classes built upon existing classes to achieve runtime polymorphism.
+Polymorphism: A Mechanism in Java through which you can perform a single action in multiple ways. Polymorphism can be of two types- Compile time and runtime.
+Abstraction: It’s a method to hide internal processing and show only essential things to the users.
+3. Platform Independence
+Unlike other languages, Java is not limited to any specific machine and dependent on other factors to run. The Java platform is independent because:
+
+It uses a runtime environment of its own, i.e. JVM.
+It is a write-once, run-anywhere language.
+It is a software-based platform that runs on top of other hardware-based platforms.
+Its code can be executed on multiple platforms, including Windows, Linux, Sun Solaris, and Mac/OS.
+The Java code is compiled by the compiler and converted into bytecode.
+4. Automatic Memory Management
+Automatic memory management is a crucial feature of Java programming. It helps in:
+
+Create high-performance system.
+Automatically allocate and free up space for objects.
+Eliminating the worries about memory management.
+Issues like object destruction don’t occur.
+There is no need to add memory management logic.
+5. Security
+Java programming language is known for its security. With it, you can create virus-free systems because:
+
+Java programming language runs inside a virtual machine.
+It uses its own runtime environment- JVM.
+Java includes a security manager, which determines what resources a class can access, such as reading and writing to the local disk.
+In Java run time, a class loader separates the package for the classes of the local file system from the files imported from network sources.
+Java also consists of Bytecode Verifier, which checks the code fragments for illegal code.
+Dynamic
+Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment. Java programs can carry extensive amount of run-time information that can be used to verify and resolve accesses to objects on run-time.
+Multithreaded
+With Java's multithreaded feature it is possible to write programs that can perform many tasks simultaneously. This design feature allows the developers to construct interactive applications that can run smoothly.
+
+A multi-threaded program contains two or more parts that can run concurrently and each part can handle a different task at the same time making optimal use of the available resources specially when your computer has multiple CPUs.
+
+By definition, multitasking is when multiple processes share common processing resources such as a CPU. Multithreading extends the idea of multitasking into applications where you can subdivide specific operations within a single application into individual threads. Each of the threads can run in parallel. The OS divides processing time not only among different applications, but also among each thread within an application.
+
+Multi-threading enables you to write in a way where multiple activities can proceed concurrently in the same program.
+Interpreted
+Java byte code is translated on the fly to native machine instructions and is not stored anywhere. The development process is more rapid and analytical since the linking is an incremental and light-weight process.
+
+JVM sits in between the javac compiler and the underlying hardware, the javac (or any other compiler) compiler compiles Java code in the Bytecode, which is understood by a platform specific JVM. The JVM then compiles the Bytecode in binary using JIT (Just-in-time) compilation, as the code executes.
+6. Rich API
+Being one of the oldest programming languages, Java has a rich API. Some popular Java APIs are:
+
+Java Advanced Imaging (JAI)
+Java Data Objects (JDO)
+Java Media Frameworks (JMF)
+Java Persistence API (JPA)
+Java 3D (J3D)
+7. Multithreading
+Multithreading is an essential feature of Java that makes Java programming exclusive. It offers several benefits:
+
+It lets Java developers execute multiple threads at the same time.
+It’s used to achieve multitasking.
+It saves time.
+It’s mostly used in games and animation.
+Threads work independently and don’t impact other threads, even if created simultaneously.
+8. High Performance
+Java is a programming language with a high-performance rate. It is because:
+
+Java uses bytecode that can be easily translated into native machine code.
+It has multiple easy-to-use frameworks.
+It is compatible with multiple platforms, including Windows, Linux, Sun Solaris, and Mac/OS.
+It is a write-once, run-anywhere language.
+Java also automatically clears the garbage to enhance its performance.
+9. Scalability
+Java offers its users scalability, which means it can deal with more and more users and works. It is so because:
+
+Java is an object-oriented programming language.
+It has the ability to handle large databases.
+Java doesn’t require multiple resources while running.
+It uses multithreading and multiprocessing.\
+Java includes a higher volume of code.
+10. Simplified Syntax
+Java is one of the most used programming languages with simplified syntax. Some basic features of writing syntax for Java:
+
+Java programming language is easily understood by the compiler and computer.
+It is case-sensitive, which means “hello world” or “HelloWorld” are two different things.
+It includes a bunch of objects and classes.
+The Java code statements end with semicolons (;).
+In Java syntax, there are delimiters “{…}” that denote a block of code.
+Java is a portable, multithreading, secure and object-oriented programming language which supports software, web, and mobile application development. 
+
+According to Wikipedia, Java is a general-purpose programming language with a high-level, class-based, object-oriented programming language that lets programmers use write once, run anywhere (WORA) code.
+
+Oops stands for object-oriented programming in Java, which means everything written in this language is an object and class. Its most important features are inheritance, polymorphism, abstraction and encapsulation.

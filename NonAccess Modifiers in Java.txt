@@ -1,0 +1,99 @@
+Non-Access Modifiers in Java
+
+Modifiers are specific keywords present in Java 
+Non-Access Modifiers - do not control access level, but provides other functionality
+
+characteristics of a variable, method, or class and limit its scope. Java programming language has a rich set of Modifiers.
+
+Modifiers in Java are divided into two types – Access Modifiers and Non-Access modifiers. 
+
+Access Modifiers in Java help restrict the scope of a variable, method, class, or constructor. Public, Private, Protected, and Default these four access modifiers are present in Java.
+
+Non-Access modifiers 
+Non-access modifiers provide information about the characteristics of a class, method, or variable to the JVM. Seven types of Non-Access modifiers are present in Java.
+ They are –
+static
+final
+abstract
+synchronized
+volatile
+transient
+native
+static:
+The static keyword means that the entity to which it is applied is available outside any particular instance of the class. That means the static methods or the attributes are a part of the class and not an object. The memory is allocated to such an attribute or method at the time of class loading. The use of a static modifier makes the program more efficient by saving memory. A static field exists across all the class instances, and without creating an object of the class, they can be called.
+
+. final:
+The final keyword indicates that the specific class cannot be extended or a method cannot be overridden.
+If you don't want the ability to override existing attribute values, declare attributes as final:
+ abstract
+abstract keyword is used to declare a class as partially implemented means an object cannot be created directly from that class. Any subclass needs to be either implement all the methods of the abstract class, or it should also need to be an abstract class. The abstract keyword cannot be used with static, final, or private keywords because they prevent overriding, and we need to override methods in the case of an abstract class.
+
+synchronized
+synchronized keyword prevents a block of code from executing by multiple threads at once. It is very important for some critical operations.
+
+volatile
+volatile keyword only and only ensures that changes that are made to variables are reflected across all threads that are accessing the same variable/thread. The usage of volatile keywords does not guarantee thread safety for class but it does not ensure thread safety and concurrency issues. Hence if we want our class to be thread-safe then we need to invoke it via the below technologies:
+
+ Using synchronized keyword
+Using monitors
+using concurrency techniques (language dependent)
+he volatile keyword is only applicable to a variable. 
+Usage and Application: volatile keyword reduces the chance of memory inconsistency. The value of a volatile variable is always read from the main memory and not from the local thread cache, and it helps to improve thread performance. 
+
+ transient
+This needs prior knowledge of serialization in Java. You can refer to the following article for that:- serialization in java.
+
+The transient keyword may be applied to member variables of a class to indicate that the member variable should not be serialized when the containing class instance is serialized. Serialization is the ?process of converting an object into a byte stream. When we do not want to serialize the value of a variable, then we declare it as transient. To make it more transparent, let’s take an example of an application where we need to accept UserID and Password. At that moment, we need to declare some variable to take the input and store the data, but as the data is susceptible, we do not want to keep it stored after the job is done. To achieve this, we can use the transient keyword for variable declaration. That particular variable will not participate in the serialization process, and when we deserialize that, we will receive the default value of the variable. 
+
+ native
+The native keyword may be applied to a method to indicate that the method is implemented in a language other than Java. Using this java application can call code written in C, C++, or assembler language. A shared code library or DLL is required in this case. 
+
+Modifiers are specific keywords present in Java 
+using which we can make changes to the Non-Access Modifiers in Java
+Non-Access Modifiers - do not control access level, but provides other functionality
+
+characteristics of a variable, method, or class and limit its scope. Java programming language has a rich set of Modifiers.
+
+Modifiers in Java are divided into two types – Access Modifiers and Non-Access modifiers. 
+
+Access Modifiers in Java help restrict the scope of a variable, method, class, or constructor. Public, Private, Protected, and Default these four access modifiers are present in Java.
+
+Non-Access modifiers 
+Non-access modifiers provide information about the characteristics of a class, method, or variable to the JVM. Seven types of Non-Access modifiers are present in Java.
+ They are –
+static
+final
+abstract
+synchronized
+volatile
+transient
+native
+static:
+The static keyword means that the entity to which it is applied is available outside any particular instance of the class. That means the static methods or the attributes are a part of the class and not an object. The memory is allocated to such an attribute or method at the time of class loading. The use of a static modifier makes the program more efficient by saving memory. A static field exists across all the class instances, and without creating an object of the class, they can be called.
+
+. final:
+The final keyword indicates that the specific class cannot be extended or a method cannot be overridden.
+If you don't want the ability to override existing attribute values, declare attributes as final:
+ abstract
+abstract keyword is used to declare a class as partially implemented means an object cannot be created directly from that class. Any subclass needs to be either implement all the methods of the abstract class, or it should also need to be an abstract class. The abstract keyword cannot be used with static, final, or private keywords because they prevent overriding, and we need to override methods in the case of an abstract class.
+
+synchronized
+synchronized keyword prevents a block of code from executing by multiple threads at once. It is very important for some critical operations.
+
+volatile
+volatile keyword only and only ensures that changes that are made to variables are reflected across all threads that are accessing the same variable/thread. The usage of volatile keywords does not guarantee thread safety for class but it does not ensure thread safety and concurrency issues. Hence if we want our class to be thread-safe then we need to invoke it via the below technologies:
+
+ Using synchronized keyword
+Using monitors
+using concurrency techniques (language dependent)
+he volatile keyword is only applicable to a variable. 
+Usage and Application: volatile keyword reduces the chance of memory inconsistency. The value of a volatile variable is always read from the main memory and not from the local thread cache, and it helps to improve thread performance. 
+
+ transient
+This needs prior knowledge of serialization in Java. You can refer to the following article for that:- serialization in java.
+
+The transient keyword may be applied to member variables of a class to indicate that the member variable should not be serialized when the containing class instance is serialized. Serialization is the ?process of converting an object into a byte stream. When we do not want to serialize the value of a variable, then we declare it as transient. To make it more transparent, let’s take an example of an application where we need to accept UserID and Password. At that moment, we need to declare some variable to take the input and store the data, but as the data is susceptible, we do not want to keep it stored after the job is done. To achieve this, we can use the transient keyword for variable declaration. That particular variable will not participate in the serialization process, and when we deserialize that, we will receive the default value of the variable. 
+
+ native
+The native keyword may be applied to a method to indicate that the method is implemented in a language other than Java. Using this java application can call code written in C, C++, or assembler language. A shared code library or DLL is required in this case. 
+

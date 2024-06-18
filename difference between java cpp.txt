@@ -1,0 +1,153 @@
+difference between cpp and java
+
+C++ is platform-dependent.
+
+Java is platform-independent.
+
+C++ is mainly used for system programming.
+Java is mainly used for application programming.
+ It is widely used in Windows-based, web-based,
+ enterprise, and mobile applications.
+
+C++ was designed for systems and applications programming. 
+It was an extension of the C programming language.
+
+Java was designed and created as an interpreter for printing systems but 
+later extended as a support network computing.
+ It was designed to be easy to use and accessible to a broader audience.
+
+C++ was designed for systems and applications programming. 
+It was an extension of the C programming language.
+
+Java was designed and created as an interpreter
+ for printing systems but later extended as a support network computing. 
+It was designed to be easy to use and accessible to a broader audience.
+
+C++ supports the goto statement.
+
+Java doesn't support the goto statement.
+
+C++ supports multiple inheritance.
+
+Java doesn't support multiple inheritance through class.
+ It can be achieved by using interfaces in java.
+
+C++ supports operator overloading.
+
+Java doesn't support operator overloading.
+
+C++ supports pointers. You can write a pointer program in C++
+
+Java supports pointer internally. However, you can't write 
+the pointer program in java. 
+It means java has restricted pointer support in java.
+
+C++ uses compiler only. C++ is compiled and run using
+ the compiler which converts source code into machine
+ code so, C++ is platform dependent.
+
+Java uses both compiler and interpreter. Java source
+ code is converted into bytecode at compilation time. 
+The interpreter executes this bytecode at runtime and
+ produces output. Java is interpreted that is why it is platform-independent.
+
+C++ supports both call by value and call by reference.
+
+Java supports call by value only. There is no call by reference in java.
+
+C++ supports structures and unions.
+
+Java doesn't support structures and unions
+
+C++ doesn't support documentation comments.
+
+Java supports documentation comment (/** ... */) to create 
+documentation for java source code.
+
+C++ supports virtual keyword so that we can decide
+ whether or not to override a function.
+
+Java has no virtual keyword. We can override all non-static 
+methods by default. In other words, non-static methods
+ are virtual by default.
+
+C++ doesn't support >>> operator.
+
+Java supports unsigned right shift >>> operator
+ that fills zero at the top for the negative numbers.
+ For positive numbers, it works same like >> operator.
+
+C++ always creates a new inheritance tree.
+
+Java always uses a single inheritance tree because 
+all classes are the child of the Object class in Java.
+ The Object class is the root of the inheritance tree in java.
+
+C++ is an object-oriented language. However, in
+ the C language, a single root hierarchy is not possible.
+
+Java is also an object-oriented language. However, 
+everything (except fundamental types) is an object in 
+Java. It is a single root hierarchy as everything gets 
+derived from java.lang.Object.
+
+C++ provides thread support through libraries like 
+POSIX threads or C++11's standard thread library.
+
+Java has built-in support for multithreading, making
+ it easy to create and manage threads.
+	
+C++ does not have a strict root hierarchy for classes.
+
+Java has the "Object" class as the root of its class hierarchy.
+
+C++ code can be closely tied to hardware and is 
+often used for hardware-level programming
+
+Java abstracts hardware access, making it less
+ suitable for low-level hardware program
+
+Applications of C++ Programming Language
+System Software Development: C++ is commonly 
+used for building operating systems, device drivers, 
+and other system software due to its ability to interact 
+closely with hardware.
+ 
+Game Development: Many computer and console games 
+are developed using C++ because of its performance 
+capabilities and direct access to hardware resources.
+ 
+Embedded Systems: C++ is favored in embedded systems 
+programming for devices like microcontrollers, where 
+efficiency and control over hardware are crucial.
+ 
+Performance-Critical Applications: Applications that 
+require high performance, such as real-time simulations
+ and scientific computing, often use C++ for its efficiency.
+ 
+Graphics and Multimedia: C++ is used in graphics libraries 
+and multimedia applications to manage graphical elements efficiently.
+
+Applications of Java Programming Language
+Web Development: Java is widely used for building 
+dynamic web applications, including server-side components, 
+web services, and web-based enterprise software.
+ 
+Mobile App Development: Java is the primary 
+language for Android app development, making
+ it a key choice for mobile application developers.
+ 
+Enterprise Software: Java is commonly used in
+ large-scale enterprise applications, such as 
+customer relationship management (CRM) 
+systems and financial software.
+ 
+Distributed Systems: Java's platform independence 
+and robust networking capabilities make it suitable for
+ building distributed systems and networked applications.
+ 
+Desktop Applications: Java Swing and JavaFX 
+libraries are used to create cross-platform desktop 
+applications with graphical user interfaces.
+
+

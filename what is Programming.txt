@@ -1,0 +1,94 @@
+what is Programming:
+
+Programming refers to a technological process for telling a computer which tasks to perform in order to solve problems. 
+
+Computer programming or coding is the composition of sequences of instructions, called programs, that computers can follow to perform tasks.
+
+ It involves designing and implementing algorithms, step-by-step specifications of procedures, by writing code in one or more programming languages
+
+You can think of programming as a collaboration between humans and computers, in which humans create instructions for a computer to follow (code) in a language computers can understand.
+Procedural programming languages. 
+Functional programming languages. 
+Object-oriented programming languages (OOP) ...
+Scripting languages. ...
+Logic programming languages.
+
+What is programming used for?
+Computer programming is the process of writing code to facilitate specific actions in a computer, application or software program, and instructs them on how to perform.
+
+A programming language is a system of notation for writing computer programs.
+
+Programming languages are described in terms of their syntax (form) and semantics (meaning), usually defined by a formal language. 
+
+Languages usually provide features such as a type system, variables and mechanisms for error handling. 
+
+An implementation of a programming language in the form of a compiler or interpreter allows programs to be executed, either directly or by producing what's known in programming as an executable.
+
+Computer architecture has strongly influenced the design of programming languages, with the most common type (imperative languages—which implement operations in a specified order) developed to perform well on the popular von Neumann architecture. 
+
+While early programming languages were closely tied to the hardware, over time they have developed more abstraction to hide implementation details for greater simplicity.
+
+Thousands of programming languages—often classified as imperative, functional, logic, or object-oriented—have been developed for a wide variety of uses.
+
+ Many aspects of programming language design involve tradeoffs—for example, exception handling simplifies error handling, but at a performance cost. 
+
+Programming language theory is the subfield of computer science that studies the design, implementation, analysis, characterization, and classification of programming languages.
+
+All programming languages have some primitive building blocks for the description of data and the processes or transformations applied to them (like the addition of two numbers or the selection of an item from a collection). 
+
+These primitives are defined by syntactic and semantic rules which describe their structure and meaning respectively.
+
+A programming language's surface form is known as its syntax. 
+Most programming languages are purely textual; they use sequences of text including words, numbers, and punctuation, much like written natural languages. 
+
+On the other hand, some programming languages are more graphical in nature, using visual relationships between symbols to specify a program.
+
+The syntax of a language describes the possible combinations of symbols that form a syntactically correct program. The meaning given to a combination of symbols is handled by semantics (either formal or hard-coded in a reference implementation). Since most languages are textual, this article discusses textual syntax.
+
+The programming language syntax is usually defined using a combination of regular expressions (for lexical structure) and Backus–Naur form (for grammatical structure). Below is a simple grammar, based on Lisp:
+
+At its most basic, programming tells a computer what to do. First, a programmer writes code—a set of letters, numbers, and other characters. 
+
+Next, a compiler converts each line of code into a language a computer can understand. 
+
+Then, the computer scans the code and executes it, thereby performing a task or series of tasks. Tasks might include displaying an image on a webpage or changing the font of a section of text
+
+How to get started in computer programming 
+Follow these steps to embark on a journey in the growing field of programming. 
+
+1. Identify your programming goals. 
+An important first step is to reflect on your goals and motivations. With clarity on what you want to achieve and why, you can align your actions with the outcomes you desire. Here are some examples of programming goals:  
+
+Launch a new programming career in a specific industry. 
+
+Explore programming in your current role and take on new projects that combine programming with what you already do.
+
+Pursue programming as a hobby and complete projects that match your interests.  
+
+2. Enrol in an introductory programming course.
+Once you know your goals, it’s a good idea to find a course on programming to introduce you to popular programming languages and different avenues for applying programming skills. You can also use an introductory course to refine your goals and focus your efforts. 
+
+3. Build essential programming skills.
+As you’re taking courses, you’ll want to ensure you’re developing essential programming skills, mainly if your goals are to pursue a new career or enhance your current one. While a course you’re enrolled in may provide an overview of important programming skills and then structure the learning experience accordingly, you may find it helpful to find out what employers are looking for. 
+
+4. Connect with other programmers. 
+When you build a network and connect with other programmers, you can gain exposure to programming trends, opportunities, and solutions to common challenges. Ways to connect with other programmers include: 
+
+Attending tech conferences and networking events, such as the Great International Software Developer Summit (GIDS) India
+
+Signing up for a coding bootcamp
+
+Subscribing to programming influencers and thought leaders
+
+Joining an online community, such as GitHub India
+
+5. Complete projects. 
+Completing projects is a great way to apply your skills and discover your programming potential. Find tutorials online to complete beginner projects such as: 
+
+Creating a mobile app 
+Creating a calculator app
+Building a simple game
+Building a basic website from scratch 
+
+6. Explore your future in programming.
+The more you learn about programming, build skills, and complete projects, the closer you will get to achieving your goals. On a routine basis, reflect on the future you’d like to have in programming and explore the possibilities, including job listings in programming, freelancing as a programmer, building apps for friends and family, and advancing your education. 
